@@ -6,7 +6,7 @@ info:
   description: REST API for Surahs and Ayahs with search functionality
 
 servers:
-  - url: http://localhost:5000
+  - url: https://quranappbackend-production-b6be.up.railway.app/api
 
 paths:
   /api/surahs:

@@ -1,7 +1,4 @@
 
-# 📄 `README.md`
-
-```md
 # 📖 Quran API (Node.js + TypeScript + MVC)
 
 A clean and scalable REST API for Quran Surahs and Ayahs with search functionality, built using **Node.js, Express, TypeScript, and Swagger UI**.
@@ -28,31 +25,6 @@ A clean and scalable REST API for Quran Surahs and Ayahs with search functionali
 - YAML (OpenAPI docs)
 - MVC Pattern
 
----
-
-## 📁 Project Structure
-
-```
-
-src/
-│── index.ts
-│
-├── config/
-│   └── swagger.yml
-│
-├── controllers/
-│   └── surah.controller.ts
-│
-├── models/
-│   └── surah.model.ts
-│
-├── routes/
-│   └── surah.routes.ts
-│
-├── utils/
-│   └── swagger.ts
-
-````
 
 ---
 
