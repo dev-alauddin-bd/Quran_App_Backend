@@ -145,11 +145,3 @@ This project follows **MVC Pattern**:
 ## 👨‍💻 Author
 
 Made with ❤️ for Quran Web Application Assignment
-
----
-
-
-
-ISC
-
-```

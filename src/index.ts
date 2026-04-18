@@ -7,7 +7,7 @@ const app: Application = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000", 
+    origin: ["https://quran-app-frontend-five.vercel.app","http://localhost:3000"] ,
     credentials: true
   })
 );
