@@ -32,7 +32,9 @@ A clean and scalable REST API for Quran Surahs and Ayahs with search functionali
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/quran-api.git
+git clone https://github.com/dev-alauddin-bd/Quran_App_Backend.git
+
+cd Quran_App_Backend
 
 # Install dependencies
 npm install
