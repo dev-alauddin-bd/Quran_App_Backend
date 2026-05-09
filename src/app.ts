@@ -11,8 +11,8 @@ const __dirname = path.dirname(__filename);
 
 const app: Application = express();
 const PORT = process.env.PORT || 3001;
-
 // Middleware
+app.use(express.json());
 app.use(
   cors({
     origin: [
@@ -25,7 +25,7 @@ app.use(
     credentials: true,
   })
 );
-app.use(express.json());
+
 
 // Routes (MVC)
 app.use('/api', surahRouter);
