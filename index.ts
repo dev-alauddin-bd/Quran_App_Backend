@@ -33,6 +33,10 @@ try {
 }
 
 // Endpoints
+app.get('/', (req, res) => {
+  res.send('Quran Mazid Backend Server is Live! 🚀');
+});
+
 app.get('/api/surahs', (req, res) => {
   res.json(chaptersData);
 });
